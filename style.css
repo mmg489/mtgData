@@ -8,7 +8,7 @@ body{
     padding-top: 10rem;
 }
 
-#pokemonInput{
+#cardResult{
     color:goldenrod;
     background-color: darkred;
     border-color: goldenrod;
@@ -21,8 +21,8 @@ button{
 }
 
 #container{
-    background-color: darkblue;
+    background-color: brown;
     border: 4rem;
-    color: goldenrod;
+    color: antiquewhite;
     border-radius: 4rem;
 }
