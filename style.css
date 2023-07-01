@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+body{
+    font-family: Belanosima;
+    background-color: black;
+    color:rgb(255, 140, 0);
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#pokemonInput{
+    color:goldenrod;
+    background-color: darkred;
+    border-color: goldenrod;
+}
+
+button{
+    color:goldenrod;
+    font-weight: 800;
+    background-color: white;
+}
+
+#container{
+    background-color: darkblue;
+    border: 4rem;
+    color: goldenrod;
+    border-radius: 4rem;
+}
