@@ -42,8 +42,9 @@ function searchCards(){
     resData += "<p>Power: " + response.power+ "</p>";
     resData += "<p>Mana Cost: " + response.manaCost + "</p>";
     resData += "<p>Text: " + response.text + "</p>";
-    resData += "<p>Rarity: " + response.rarity + "</p>";
+    resData += "<p>Type: " + response.type + "</p>";
     resData += "<p>Format/Legality: " + response.legalities[0].format + " / "+ response.legalities[0].legality + "</p>";
+    resData += "<p>Rarity: " + response.rarity + "</p>";
 
     document.getElementById("cardResult").innerHTML = resData;
   })

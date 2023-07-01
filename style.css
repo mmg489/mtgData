@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Belanosima&display=swap');
 
 body{
-    font-family: Belanosima;
+    font-family: Architects Daughter;
     background-color: black;
-    color:rgb(255, 140, 0);
+    color:whitesmoke;
     text-align: center;
     padding-top: 10rem;
 }
+h1{
+    text-size-adjust: 500%;
+}
 
 #cardResult{
-    color:goldenrod;
+    color:whitesmoke;
     background-color: darkred;
-    border-color: goldenrod;
+    border-color: greenyellow;  
 }
 
 button{
@@ -21,8 +24,8 @@ button{
 }
 
 #container{
-    background-color: brown;
+    background-color: purple;
     border: 4rem;
-    color: antiquewhite;
+    color: whitesmoke;
     border-radius: 4rem;
 }
