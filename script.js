@@ -14,9 +14,7 @@ function searchPokemon() {
         pokemonData += "<p>Weight: " + data.weight + "</p>";
         pokemonData += "<p>Type: " + data.types[0].type.name + "</p>";
         pokemonData += "<p>Ability 1: " + data.abilities[0].ability.name + "</p>";
-        // pokemonData += "<p>Ability 2: " + data.abilities[1].ability.name + "</p>";
-        // pokemonData += "<p>Ability 3: " + data.abilities[2].ability.name + "</p>";
-  
+        
         document.getElementById("pokemonData").innerHTML = pokemonData;
       })
       .catch(function(error) {
