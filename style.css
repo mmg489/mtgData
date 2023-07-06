@@ -2,7 +2,7 @@
 
 body{
     font-family: Architects Daughter;
-    background-color: black;
+    background-color: darkgoldenrod;
     color:whitesmoke;
     text-align: center;
     padding-top: 10rem;
@@ -10,8 +10,8 @@ body{
 
 #cardResult{
     color:whitesmoke;
-    background-color: darkred;
-    border-color: greenyellow;  
+    background-color: black;
+    border-radius: 2.5rem;
 }
 
 button{
@@ -25,4 +25,9 @@ button{
     border: 4rem;
     color: whitesmoke;
     border-radius: 4rem;
+}
+
+body h1{
+    height: 3rem;
+    font-size: 5rem;
 }
